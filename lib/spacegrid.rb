@@ -1,3 +1,5 @@
+require 'spacegrid/version'
+
 module Spacegrid
-  require 'spacegrid/engine'
+  class Engine < ::Rails::Engine; end
 end
